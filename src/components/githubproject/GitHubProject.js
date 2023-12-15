@@ -18,6 +18,7 @@ const GitHubProject = () => {
     }
   };
   useEffect(() => {
+    document.title = "GitHub Users";
     getUser();
   }, []);
 
