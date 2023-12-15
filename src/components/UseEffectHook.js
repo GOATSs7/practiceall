@@ -3,7 +3,11 @@ import React, { useState, useEffect } from "react";
 const UseEffectHook = () => {
   const [count, setCount] = useState(0);
   useEffect(() => {
-    document.title = `chats(${count})`;
+    if (count >= 1) {
+      document.title = `chats(${count})`;
+    } else {
+      document.title = `chats`;
+    }
   });
 
   return (
