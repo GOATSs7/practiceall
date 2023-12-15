@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 
 const UseEffectHook = () => {
+  // usestate
   const [count, setCount] = useState(0);
+  // useeffect
   useEffect(() => {
     if (count >= 1) {
       document.title = `chats(${count})`;
     } else {
       document.title = `chats`;
     }
-  });
+  }, [count]);
 
   return (
     <>
