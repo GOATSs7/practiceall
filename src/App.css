@@ -22,3 +22,50 @@ h1 {
   border: none;
   border-radius: 6px;
 }
+
+.card {
+  border: 2px solid #ced4da; /* Adding border */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+}
+
+.list-group-item {
+  border-color: #dee2e6;
+  color: #777;
+}
+
+/* Adjustments for a more compact appearance */
+.list-group-item {
+  padding: 8px 16px;
+}
+
+.list-group-item:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

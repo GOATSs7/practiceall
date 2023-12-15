@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import UseEffectHook from "./components/UseEffectHook";
+import GitHubProject from "./components/githubproject/GitHubProject";
 const App = () => {
   return (
     <>
       <div className="container">
-        <UseEffectHook />
+        <GitHubProject />
       </div>
     </>
   );
