@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { FcApproval } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
 import Loading from "./Loading";
 
 const GitHubProject = () => {
@@ -38,7 +40,9 @@ const GitHubProject = () => {
                 alt={user.login}
               />
               <div className="card-body">
-                <h5 className="card-title">Username: {user.login}</h5>
+                <h5 className="card-title">
+                  <FaGithub /> {user.login} <FcApproval />
+                </h5>
                 <p className="card-text">Type: {user.type}</p>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">

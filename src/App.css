@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,11 +25,11 @@ h1 {
 
 .card {
   border: 2px solid #ced4da; /* Adding border */
-  border-radius: 10px;
+/* border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
-}
-
+} */
+/* 
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
@@ -58,10 +58,10 @@ h1 {
 .list-group-item {
   border-color: #dee2e6;
   color: #777;
-}
+} */
 
 /* Adjustments for a more compact appearance */
-.list-group-item {
+/* .list-group-item {
   padding: 8px 16px;
 }
 
@@ -71,12 +71,13 @@ h1 {
 }
 a {
   text-decoration: none;
-}
+} */
 
 /* for Loading component */
-.loading {
+/* .loading {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust height to fill the entire viewport */
-}
+  height: 100vh; */
+/* Adjust height to fill the entire viewport */
+/* } */
