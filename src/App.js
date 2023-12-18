@@ -3,9 +3,14 @@ import "./App.css";
 // import GitHubProject from "./components/githubproject/GitHubProject";
 // import UnControlledWIthRef from "./components/UnControlledWIthRef";
 // import UseReducer from "./components/UseReducer";
-import TheamProvideR from "./components/UseConteX/TheamProvideR";
+// import TheamProvideR from "./components/UseConteX/TheamProvideR";
+import Menucard from "./components/restomenucard/Menucard";
 const App = () => {
-  return <TheamProvideR />;
+  return (
+    <>
+      <Menucard />
+    </>
+  );
 };
 
 export default App;
