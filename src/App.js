@@ -2,15 +2,10 @@ import React from "react";
 import "./App.css";
 // import GitHubProject from "./components/githubproject/GitHubProject";
 // import UnControlledWIthRef from "./components/UnControlledWIthRef";
-import UseReducer from "./components/UseReducer";
+// import UseReducer from "./components/UseReducer";
+import TheamProvideR from "./components/UseConteX/TheamProvideR";
 const App = () => {
-  return (
-    <>
-      <div className="container">
-        <UseReducer />
-      </div>
-    </>
-  );
+  return <TheamProvideR />;
 };
 
 export default App;
