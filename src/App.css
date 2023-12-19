@@ -108,3 +108,10 @@ h1,
   color: white;
   font-weight: 700;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
