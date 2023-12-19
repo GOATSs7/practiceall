@@ -92,7 +92,19 @@ h1,
   font-family: "Kalnia", serif;
   font-family: "Playfair Display", serif;
 }
-/* {
-  font-family: "Kalnia", serif;
-  font-family: "Playfair Display", serif;
-} */
+
+/* for digitalclOCK */
+
+.clock {
+  height: 80px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  background-color: #174ed4;
+  color: white;
+  font-weight: 700;
+}
