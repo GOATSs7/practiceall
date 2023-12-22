@@ -36,7 +36,7 @@ const Product = () => {
         const fetchApi = await fetch("https://dummyjson.com/products");
         setLoaing(true);
         const data = await fetchApi.json();
-        console.log(data.products);
+        // console.log(data.products);
 
         setProductList(data.products);
         setFilteredProduct(data.products);
