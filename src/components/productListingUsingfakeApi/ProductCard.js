@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 const ProductCard = ({ productList }) => {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
-  const handleClick = () => {
-    setCount(count + 1);
-  };
-  console.log(count);
+  // const handleClick = () => {
+  //   setCount(count + 1);
+  // };
+  // console.log(count);
   return (
     <>
       <div className="container">
@@ -36,7 +36,7 @@ const ProductCard = ({ productList }) => {
                       </button>
                       <button
                         className="btn btn-primary mt-2 mb-2"
-                        onClick={handleClick}
+                        // onClick={handleClick}
                       >
                         Add To Cart
                       </button>
