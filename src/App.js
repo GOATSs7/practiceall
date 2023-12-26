@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 // import DigitalClock from "./components/digitalclock/DigitalClock";
-import Product from "./components/productListingUsingfakeApi/Product";
+// import Product from "./components/productListingUsingfakeApi/Product";
 // import GitHubProject from "./components/githubproject/GitHubProject";
 // import UnControlledWIthRef from "./components/UnControlledWIthRef";
 // import UseReducer from "./components/UseReducer";
