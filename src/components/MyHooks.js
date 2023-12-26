@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const MyHooks = () => {
-  let myNameInitial = "Rutika ";
+  let myNameInitial = "Saru ";
 
   const [count, setCount] = useState(0);
   const [name, setName] = useState(myNameInitial);
