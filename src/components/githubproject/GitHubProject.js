@@ -22,7 +22,7 @@ const GitHubProject = () => {
   useEffect(() => {
     document.title = "GitHub Users";
     getUser();
-  }, []);
+  }, [users]);
 
   if (loading) {
     return <Loading />;

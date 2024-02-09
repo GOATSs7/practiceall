@@ -6,22 +6,25 @@ const LogInForm = () => {
 
   const [allEntry, setAllEntry] = useState([]);
 
-  const submitForm = (e) => {
-    e.preventDefault();
+  const submitForm = useCallback(
+    (e) => {
+      e.preventDefault();
 
-    if (email && password) {
-      const newEntry = {
-        id: new Date().getTime().toString(),
-        email: email,
-        password: password,
-      };
-      setAllEntry([...allEntry, newEntry]);
-      setEmail("");
-      setPassword("");
-    } else {
-      alert("please Fill Form");
-    }
-  };
+      if (email && password) {
+        const newEntry = {
+          id: new Date().getTime().toString(),
+          email: email,
+          password: password,
+        };
+        setAllEntry([...allEntry, newEntry]);
+        setEmail("");
+        setPassword("");
+      } else {
+        alert("please Fill Form");
+      }
+    },
+    [email, setPassword, allEntry]
+  );
   return (
     <>
       <div className="container mt-5">
@@ -88,7 +91,7 @@ const LogInForm = () => {
 
 export default LogInForm;
 
-// this code submit the for so we uses 3 useState func email ,password and for our data to save
+// this is code submit the form so we uses 3 useState func email ,password and for our data to save
 // onSubmit we call submitForm fuction which helps to store and update our data
 //there are some error like we here empty form is still submiting we can save this by require
 // we can use required   but insted we use short-circuit here && and ||

@@ -1,36 +1,47 @@
 import React, { useState } from "react";
 
 const MyHooks = () => {
-  let myNameInitial = "Saru ";
+  // let myNameInitial = "Saru ";
 
   const [count, setCount] = useState(0);
-  const [name, setName] = useState(myNameInitial);
-  const [updateName, setUpdatedName] = useState(true);
+  // const [name, setName] = useState(myNameInitial);
+  // const [updateName, setUpdatedName] = useState(true);
 
-  const myName = () => {
-    setName(name + "wife of Sangram chopdar ");
-    setUpdatedName(false);
+  // const myName = () => {
+  //   setName(name + "wife of Sangram chopdar ");
+  //   setUpdatedName(false);
+  // };
+  const addCount = () => {
+    if (count >= 20) {
+      return;
+    }
+    setCount(count + 1);
+  };
+
+  const removeCount = () => {
+    if (count <= 0) {
+      return;
+    }
+    setCount(count - 1);
   };
 
   return (
     <>
-      <div className="container">
-        <h1>{name}</h1>
-      </div>
+      <div className="container"></div>
       <div className="content">
         <h3>{count}</h3>
 
         <button
-          onClick={() => {
-            setCount(count + 1);
-
-            if (updateName) {
-              myName();
-            }
-          }}
+          // onClick={() => {
+          //   if (updateName) {
+          //     myName();
+          //   }
+          // }}
+          onClick={addCount}
         >
-          click me
+          Add
         </button>
+        <button onClick={removeCount}>Remove</button>
       </div>
     </>
   );
