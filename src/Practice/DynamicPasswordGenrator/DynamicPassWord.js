@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./DynamicPassWord.css";
 const DynamicPassWord = () => {
+  //states
   const [password, setPassWord] = useState("");
   const [passwordLength, setPasswordLength] = useState(12);
   const [includeNumbers, setIncludeNumbers] = useState(true);
@@ -51,6 +52,7 @@ const DynamicPassWord = () => {
 
     for (let i = 0; i < passwordLength; i++) {
       const randomIndex = Math.floor(Math.random() * validChars.length);
+      // console.log(randomIndex);
       genratedPassword += validChars[randomIndex];
     }
     setPassWord(genratedPassword);

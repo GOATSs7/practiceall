@@ -1,0 +1,56 @@
+.landing_section {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the section take up the full viewport height */
+  background: #ebebeb;
+}
+
+.main-container {
+  max-width: 600px;
+  margin-left: 5%;
+  text-align: center;
+}
+.main-container h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.open-modal {
+  margin-top: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.modal-main {
+  position: relative;
+}
+.modal-container {
+  position: absolute;
+  top: -100px;
+  left: -210px;
+  background: #454545;
+  height: 200px;
+  width: 300px;
+  color: #fff;
+  border-radius: 10px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}

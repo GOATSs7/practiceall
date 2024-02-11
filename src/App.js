@@ -1,6 +1,14 @@
 import React from "react";
 import "./App.css";
-import DynamicPassWord from "./Practice/DynamicPasswordGenrator/DynamicPassWord";
+import Pagination from "./Practice/Pagination/Pagination";
+
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// import CustomModal from "./Practice/CustomModal/CustomModal";
+// import Stopwatch from "./Practice/StopWatch/Stopwatch";
+// import Nav from "./Practice/RouterPrac/Nav";
+// import LoginAuth from "./Practice/LoginAuthentication/LoginAuth";
+// import DynamicPassWord from "./Practice/DynamicPasswordGenrator/DynamicPassWord";
 // import UrlShortener from "./Practice/UrlShortener/UrlShortener";
 // import FormValidation from "./Practice/FormValidation/FormValidation";
 // import ChangeTextOnTimer from "./Practice/TimerChange/ChangeTextOnTimer";
@@ -18,7 +26,7 @@ import DynamicPassWord from "./Practice/DynamicPasswordGenrator/DynamicPassWord"
 const App = () => {
   return (
     <>
-      <DynamicPassWord />
+      <Pagination />
     </>
   );
 };
