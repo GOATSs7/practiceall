@@ -13,7 +13,7 @@ const useApi = () => {
       const result = await fetch(uri);
       const incomingData = await result.json();
       setData(incomingData);
-      console.log(incomingData);
+      //   console.log(incomingData);
     } catch (error) {
       setError(error.message);
       setLoading(false);
