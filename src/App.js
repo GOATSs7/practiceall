@@ -1,7 +1,10 @@
 import React from "react";
 import "./App.css";
-import Auth from "./Practice/AuthWIthContext/LoginForm/Auth";
-import AuthProvider from "./Practice/AuthWIthContext/Context/AuthContext";
+import CustomHookComp from "./Practice/CustomHookApi/CustomHookComp";
+// import CarouselImgComp from "./Practice/Carousel/CarouselImgComp";
+// import Auth from "./Practice/AuthWIthContext/LoginForm/Auth";
+// import AuthProvider from "./Practice/AuthWIthContext/Context/AuthContext";
+// import CarouselComp from "./Practice/Carousel/CarouselComp";
 
 // import InfiniteScroll from "./Practice/InfiniteScroll/InfiniteScroll";
 // import ToggleTheme from "./Practice/ToggleTheam/ToggleTheme";
@@ -30,9 +33,9 @@ import AuthProvider from "./Practice/AuthWIthContext/Context/AuthContext";
 // import MyHooks from "./components/MyHooks";
 const App = () => {
   return (
-    <AuthProvider>
-      <Auth />
-    </AuthProvider>
+    <>
+      <CustomHookComp />
+    </>
   );
 };
 

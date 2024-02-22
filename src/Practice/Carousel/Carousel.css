@@ -1,0 +1,17 @@
+.row.container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 800px;
+  margin-right: 300px;
+}
+.button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
