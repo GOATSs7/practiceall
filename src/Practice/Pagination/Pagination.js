@@ -9,9 +9,9 @@ const Pagination = () => {
   // fetch data
   let URL = `https://jsonplaceholder.typicode.com/posts?_page=${currentPage}&_limit=5`;
 
-  const fetchUser = async (uri) => {
+  const fetchUser = async (url) => {
     try {
-      const fetchdata = await fetch(uri);
+      const fetchdata = await fetch(url);
       const data = await fetchdata.json();
       const totalHeaders = fetchdata.headers.get("x-total-count");
       const totalCount = totalHeaders ? parseInt(totalHeaders, 10) : 0;

@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import Pagination from "./Practice/Pagination/Pagination";
+// import InfiniteScroll from "./Practice/InfiniteScroll/InfiniteScroll";
+import ToggleTheme from "./Practice/ToggleTheam/ToggleTheme";
+// import Pagination from "./Practice/Pagination/Pagination";
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -26,7 +28,7 @@ import Pagination from "./Practice/Pagination/Pagination";
 const App = () => {
   return (
     <>
-      <Pagination />
+      <ToggleTheme />
     </>
   );
 };

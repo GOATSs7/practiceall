@@ -1,4 +1,9 @@
+
+/// this hook stores the data in local storage
+
+
 import { useEffect, useState } from "react";
+
 
 const UseLocalStorage = (key, initialValue = []) => {
   const storedData = () => {
