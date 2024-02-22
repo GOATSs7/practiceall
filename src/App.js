@@ -1,7 +1,10 @@
 import React from "react";
 import "./App.css";
+import Auth from "./Practice/AuthWIthContext/LoginForm/Auth";
+import AuthProvider from "./Practice/AuthWIthContext/Context/AuthContext";
+
 // import InfiniteScroll from "./Practice/InfiniteScroll/InfiniteScroll";
-import ToggleTheme from "./Practice/ToggleTheam/ToggleTheme";
+// import ToggleTheme from "./Practice/ToggleTheam/ToggleTheme";
 // import Pagination from "./Practice/Pagination/Pagination";
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -27,9 +30,9 @@ import ToggleTheme from "./Practice/ToggleTheam/ToggleTheme";
 // import MyHooks from "./components/MyHooks";
 const App = () => {
   return (
-    <>
-      <ToggleTheme />
-    </>
+    <AuthProvider>
+      <Auth />
+    </AuthProvider>
   );
 };
 

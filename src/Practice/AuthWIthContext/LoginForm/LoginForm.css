@@ -1,0 +1,30 @@
+.landing_section {
+  margin-top: 20%;
+}
+.landing-form-div input {
+  margin-top: 20px;
+  /* padding: 30px; */
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.landing-form-div button {
+  margin-top: 20px;
+  background: purple;
+  padding: 10px;
+  border: 1px solid yellow;
+  color: white;
+}
+.logout-div {
+  margin-top: 30%;
+}
+.logout-div button {
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.usernameclass {
+  color: #333;
+}
