@@ -1,0 +1,53 @@
+/* CityWeather.css */
+.landing-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  /* margin-top: 50px; */
+}
+
+.landing-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.landing-form-div {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.para {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.landing-sub-heading {
+  font-size: 25px;
+  margin-bottom: 10px;
+}

@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import CustomHookComp from "./Practice/CustomHookApi/CustomHookComp";
+import CityWeather from "./Practice/WeatherApp/CityWeather";
+// import CustomHookComp from "./Practice/CustomHookApi/CustomHookComp";
+// import ApicallOnChange from "./Practice/ApiCallOnChange/ApicallOnChange";
 
 // import CarouselImgComp from "./Practice/Carousel/CarouselImgComp";
 // import Auth from "./Practice/AuthWIthContext/LoginForm/Auth";
@@ -35,7 +37,7 @@ import CustomHookComp from "./Practice/CustomHookApi/CustomHookComp";
 const App = () => {
   return (
     <>
-      <CustomHookComp />
+      <CityWeather />
     </>
   );
 };
