@@ -140,6 +140,7 @@ h1,
     rgba(0, 212, 255, 1) 100%
   );
   --text: #ffffff;
+  /* font-size: 25px; */
 }
 
 * {

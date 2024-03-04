@@ -13,7 +13,7 @@ const CityWeather = () => {
       const data = await response.json();
 
       setApiData(data);
-      console.log(data);
+      //   console.log(data);
     } catch (error) {
       console.log(error.message);
     }
@@ -48,7 +48,7 @@ const CityWeather = () => {
             City : {apiData?.name}, Country :
             {apiData.sys ? apiData.sys.country : "India"}
           </h3>
-          <p className="para">Temperature : {apiData.main.temp} F</p>
+          <p className="para">Temperature : {apiData.main.temp} K</p>
           <p className="para">Weather : {apiData.weather[0].description}</p>
         </div>
       )}

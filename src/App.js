@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import CityWeather from "./Practice/WeatherApp/CityWeather";
+import FileUpload from "./Practice/FileUpload/FileUpload";
+// import CityWeather from "./Practice/WeatherApp/CityWeather";
 // import CustomHookComp from "./Practice/CustomHookApi/CustomHookComp";
 // import ApicallOnChange from "./Practice/ApiCallOnChange/ApicallOnChange";
 
@@ -37,7 +38,7 @@ import CityWeather from "./Practice/WeatherApp/CityWeather";
 const App = () => {
   return (
     <>
-      <CityWeather />
+      <FileUpload />
     </>
   );
 };
