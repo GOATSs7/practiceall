@@ -1,0 +1,42 @@
+/* Accoedian.css */
+
+.accordian-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordian-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordian-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-size: 26px;
+  font-weight: 700;
+  position: relative;
+}
+
+.accordian-content {
+  padding: 10px;
+}
+
+/* .toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+} */
+
+.toggle-icon svg {
+  font-size: 1.5rem;
+}
+
+.toggle-icon svg:hover {
+  color: blue;
+}

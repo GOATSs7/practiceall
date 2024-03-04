@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import FileUpload from "./Practice/FileUpload/FileUpload";
+import Accordian from "./Practice/Accordian/Accordian";
+// import FileUpload from "./Practice/FileUpload/FileUpload";
 // import CityWeather from "./Practice/WeatherApp/CityWeather";
 // import CustomHookComp from "./Practice/CustomHookApi/CustomHookComp";
 // import ApicallOnChange from "./Practice/ApiCallOnChange/ApicallOnChange";
@@ -38,7 +39,7 @@ import FileUpload from "./Practice/FileUpload/FileUpload";
 const App = () => {
   return (
     <>
-      <FileUpload />
+      <Accordian />
     </>
   );
 };
